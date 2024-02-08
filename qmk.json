@@ -1,4 +1,10 @@
 {
     "userspace_version": "1.0",
-    "build_targets": []
+    "build_targets": [
+        ["tominabox1/le_chiffre/rev1", "svencschmidt"],
+        ["crkbd/rev1", "svencschmidt"],
+        ["keycapsss/kimiko/rev1", "svencschmidt"],
+        ["0xcb/splaytoraid/rp2040_ce", "svencschmidt"],
+        ["sporewoh/banime40", "svencschmidt"]
+    ]
 }
