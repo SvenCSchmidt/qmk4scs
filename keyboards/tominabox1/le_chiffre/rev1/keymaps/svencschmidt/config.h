@@ -15,4 +15,15 @@
  */
 #pragma once
 
-#define COMBO_TERM 30
+// Tap-Hold
+#define TAPPING_TERM 190
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_TOGGLE 3
+
+// Combo
+#define COMBO_TERM 80
+
+// RGB
+#define RGB_MATRIX_LED_COUNT 11
+#define RGB_DISABLE_WHEN_USB_SUSPENDED
