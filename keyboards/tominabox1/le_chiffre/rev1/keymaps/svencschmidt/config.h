@@ -16,8 +16,9 @@
 #pragma once
 
 // Tap-Hold
-#define TAPPING_TERM 190
+#define TAPPING_TERM 160
 #define PERMISSIVE_HOLD
+#define TAPPING_TERM_PER_KEY
 //#define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_TOGGLE 3
 

@@ -50,6 +50,26 @@ combo_t key_combos[] = {
   [CV_CtrlV] = COMBO(cv_combo, LCTL(KC_V)),
 };
 
+// Tapping Term per Key
+
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LGUI_T(KC_A):
+            return 220;
+        case LALT_T(KC_R):
+            return 220;
+		case LALT_T(KC_I):
+            return 220;
+		case RGUI_T(KC_O):
+            return 220;
+		case RALT_T(KC_X):
+            return 220;
+		case RALT_T(KC_DOT):
+            return 220;
+        default:
+            return TAPPING_TERM;
+    }
+}
 
 // Keymap //
 
